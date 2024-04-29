@@ -1,0 +1,413 @@
+Random Forest: Class Balancing: SMOTE
+Random Forest: Class Balancing: SMOTE - Training
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      1.00      5161
+           2       0.86      0.86      0.86      5175
+           3       0.55      0.35      0.42      5187
+           4       0.63      0.55      0.59      5235
+           5       0.54      0.74      0.63      5266
+           6       0.75      0.84      0.79      5191
+           7       0.86      0.86      0.86      5199
+
+    accuracy                           0.74     36414
+   macro avg       0.74      0.74      0.74     36414
+weighted avg       0.74      0.74      0.74     36414
+
+Random Forest: Class Balancing: SMOTE - Testing
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      0.99      1685
+           2       0.87      0.84      0.86      1742
+           3       0.55      0.35      0.43      1724
+           4       0.64      0.57      0.60      1765
+           5       0.55      0.76      0.64      1724
+           6       0.75      0.84      0.79      1726
+           7       0.87      0.86      0.86      1772
+
+    accuracy                           0.74     12138
+   macro avg       0.74      0.75      0.74     12138
+weighted avg       0.74      0.74      0.74     12138
+
+Random Forest: Class Balancing: SMOTE - Validation
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      1824
+           2       0.87      0.84      0.86      1753
+           3       0.57      0.34      0.43      1759
+           4       0.61      0.56      0.58      1670
+           5       0.53      0.75      0.63      1680
+           6       0.76      0.83      0.80      1753
+           7       0.86      0.87      0.86      1699
+
+    accuracy                           0.75     12138
+   macro avg       0.74      0.74      0.74     12138
+weighted avg       0.75      0.75      0.74     12138
+
+Logistic Regression: Class Balancing: SMOTE
+Logistic Regression: Class Balancing: SMOTE - Training
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      1.00      5161
+           2       0.79      0.36      0.49      5175
+           3       0.44      0.78      0.57      5187
+           4       0.53      0.54      0.54      5235
+           5       0.02      0.01      0.01      5266
+           6       0.59      0.92      0.72      5191
+           7       0.89      0.81      0.85      5199
+
+    accuracy                           0.63     36414
+   macro avg       0.61      0.63      0.60     36414
+weighted avg       0.61      0.63      0.59     36414
+
+Logistic Regression: Class Balancing: SMOTE - Testing
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      0.99      1685
+           2       0.78      0.34      0.47      1742
+           3       0.44      0.78      0.56      1724
+           4       0.53      0.55      0.54      1765
+           5       0.01      0.00      0.01      1724
+           6       0.59      0.91      0.72      1726
+           7       0.88      0.82      0.85      1772
+
+    accuracy                           0.63     12138
+   macro avg       0.60      0.63      0.59     12138
+weighted avg       0.60      0.63      0.59     12138
+
+Logistic Regression: Class Balancing: SMOTE - Validation
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      1824
+           2       0.76      0.35      0.48      1753
+           3       0.46      0.78      0.58      1759
+           4       0.51      0.53      0.52      1670
+           5       0.01      0.00      0.01      1680
+           6       0.60      0.92      0.73      1753
+           7       0.89      0.82      0.85      1699
+
+    accuracy                           0.64     12138
+   macro avg       0.60      0.63      0.59     12138
+weighted avg       0.61      0.64      0.60     12138
+
+Decision Tree: Class Balancing: SMOTE
+Decision Tree: Class Balancing: SMOTE - Training
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      1.00      5161
+           2       0.86      0.86      0.86      5175
+           3       0.55      0.35      0.42      5187
+           4       0.63      0.55      0.59      5235
+           5       0.54      0.74      0.63      5266
+           6       0.75      0.84      0.79      5191
+           7       0.86      0.86      0.86      5199
+
+    accuracy                           0.74     36414
+   macro avg       0.74      0.74      0.74     36414
+weighted avg       0.74      0.74      0.74     36414
+
+Decision Tree: Class Balancing: SMOTE - Testing
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      0.99      1685
+           2       0.87      0.84      0.86      1742
+           3       0.55      0.35      0.43      1724
+           4       0.64      0.57      0.60      1765
+           5       0.55      0.76      0.64      1724
+           6       0.75      0.84      0.79      1726
+           7       0.87      0.86      0.86      1772
+
+    accuracy                           0.74     12138
+   macro avg       0.74      0.75      0.74     12138
+weighted avg       0.74      0.74      0.74     12138
+
+Decision Tree: Class Balancing: SMOTE - Validation
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      1824
+           2       0.87      0.84      0.86      1753
+           3       0.57      0.34      0.43      1759
+           4       0.61      0.56      0.58      1670
+           5       0.53      0.75      0.63      1680
+           6       0.76      0.83      0.80      1753
+           7       0.86      0.87      0.86      1699
+
+    accuracy                           0.75     12138
+   macro avg       0.74      0.74      0.74     12138
+weighted avg       0.75      0.75      0.74     12138
+
+Support Vector Machine: Class Balancing: SMOTE
+Support Vector Machine: Class Balancing: SMOTE - Training
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      1.00      5161
+           2       0.86      0.80      0.83      5175
+           3       0.53      0.78      0.63      5187
+           4       0.52      0.70      0.60      5235
+           5       0.67      0.13      0.21      5266
+           6       0.77      0.82      0.79      5191
+           7       0.85      0.86      0.86      5199
+
+    accuracy                           0.73     36414
+   macro avg       0.74      0.73      0.70     36414
+weighted avg       0.74      0.73      0.70     36414
+
+Support Vector Machine: Class Balancing: SMOTE - Testing
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      0.99      1685
+           2       0.87      0.77      0.82      1742
+           3       0.53      0.78      0.63      1724
+           4       0.53      0.71      0.60      1765
+           5       0.68      0.14      0.23      1724
+           6       0.76      0.82      0.79      1726
+           7       0.86      0.86      0.86      1772
+
+    accuracy                           0.73     12138
+   macro avg       0.75      0.73      0.70     12138
+weighted avg       0.74      0.73      0.70     12138
+
+Support Vector Machine: Class Balancing: SMOTE - Validation
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      1824
+           2       0.87      0.78      0.82      1753
+           3       0.55      0.78      0.64      1759
+           4       0.51      0.70      0.59      1670
+           5       0.67      0.15      0.24      1680
+           6       0.77      0.81      0.79      1753
+           7       0.85      0.86      0.86      1699
+
+    accuracy                           0.73     12138
+   macro avg       0.75      0.73      0.71     12138
+weighted avg       0.75      0.73      0.71     12138
+
+K-Nearest Neighbors: Class Balancing: SMOTE
+K-Nearest Neighbors: Class Balancing: SMOTE - Training
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      1.00      5161
+           2       0.78      0.97      0.86      5175
+           3       0.75      0.20      0.32      5187
+           4       0.48      0.69      0.57      5235
+           5       0.54      0.74      0.63      5266
+           6       0.88      0.70      0.78      5191
+           7       0.93      0.81      0.87      5199
+
+    accuracy                           0.73     36414
+   macro avg       0.76      0.73      0.72     36414
+weighted avg       0.76      0.73      0.72     36414
+
+K-Nearest Neighbors: Class Balancing: SMOTE - Testing
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      0.99      1685
+           2       0.77      0.96      0.86      1742
+           3       0.73      0.19      0.31      1724
+           4       0.49      0.68      0.57      1765
+           5       0.55      0.76      0.64      1724
+           6       0.89      0.70      0.78      1726
+           7       0.92      0.82      0.87      1772
+
+    accuracy                           0.73     12138
+   macro avg       0.76      0.73      0.72     12138
+weighted avg       0.76      0.73      0.72     12138
+
+K-Nearest Neighbors: Class Balancing: SMOTE - Validation
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      1824
+           2       0.78      0.97      0.87      1753
+           3       0.76      0.20      0.32      1759
+           4       0.47      0.68      0.56      1670
+           5       0.53      0.75      0.62      1680
+           6       0.89      0.70      0.78      1753
+           7       0.93      0.82      0.87      1699
+
+    accuracy                           0.73     12138
+   macro avg       0.77      0.73      0.72     12138
+weighted avg       0.77      0.73      0.72     12138
+
+Gradient Boosting Machines:  Class Balancing: SMOTE
+Gradient Boosting Machines: Class Balancing: SMOTE - Training
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      1.00      5161
+           2       0.86      0.86      0.86      5175
+           3       0.55      0.35      0.42      5187
+           4       0.63      0.55      0.59      5235
+           5       0.54      0.74      0.63      5266
+           6       0.75      0.84      0.79      5191
+           7       0.86      0.86      0.86      5199
+
+    accuracy                           0.74     36414
+   macro avg       0.74      0.74      0.74     36414
+weighted avg       0.74      0.74      0.74     36414
+
+Gradient Boosting Machines: Class Balancing: SMOTE - Testing
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      0.99      1685
+           2       0.87      0.84      0.85      1742
+           3       0.55      0.35      0.43      1724
+           4       0.64      0.57      0.60      1765
+           5       0.55      0.76      0.64      1724
+           6       0.75      0.84      0.79      1726
+           7       0.87      0.86      0.86      1772
+
+    accuracy                           0.74     12138
+   macro avg       0.74      0.75      0.74     12138
+weighted avg       0.74      0.74      0.74     12138
+
+Gradient Boosting Machines: Class Balancing: SMOTE - Validation
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      1824
+           2       0.86      0.84      0.85      1753
+           3       0.57      0.34      0.43      1759
+           4       0.61      0.56      0.58      1670
+           5       0.53      0.75      0.63      1680
+           6       0.76      0.83      0.80      1753
+           7       0.86      0.87      0.86      1699
+
+    accuracy                           0.75     12138
+   macro avg       0.74      0.74      0.74     12138
+weighted avg       0.75      0.75      0.74     12138
+
+AdaBoost: Class Balancing: SMOTE
+AdaBoost: Class Balancing: SMOTE - Training
+              precision    recall  f1-score   support
+
+           1       1.00      0.00      0.00      5161
+           2       0.71      0.53      0.60      5175
+           3       1.00      0.00      0.00      5187
+           4       0.38      0.61      0.47      5235
+           5       0.37      0.73      0.49      5266
+           6       0.40      0.68      0.51      5191
+           7       0.83      0.83      0.83      5199
+
+    accuracy                           0.48     36414
+   macro avg       0.67      0.48      0.41     36414
+weighted avg       0.67      0.48      0.42     36414
+
+AdaBoost: Class Balancing: SMOTE - Testing
+              precision    recall  f1-score   support
+
+           1       1.00      0.00      0.00      1685
+           2       0.72      0.51      0.60      1742
+           3       1.00      0.00      0.00      1724
+           4       0.38      0.62      0.47      1765
+           5       0.37      0.73      0.49      1724
+           6       0.41      0.68      0.51      1726
+           7       0.83      0.83      0.83      1772
+
+    accuracy                           0.49     12138
+   macro avg       0.67      0.48      0.41     12138
+weighted avg       0.67      0.49      0.42     12138
+
+AdaBoost: Class Balancing: SMOTE - Validation
+              precision    recall  f1-score   support
+
+           1       1.00      0.00      0.00      1824
+           2       0.71      0.50      0.59      1753
+           3       1.00      0.00      0.00      1759
+           4       0.36      0.61      0.45      1670
+           5       0.36      0.73      0.48      1680
+           6       0.39      0.67      0.49      1753
+           7       0.83      0.83      0.83      1699
+
+    accuracy                           0.47     12138
+   macro avg       0.67      0.48      0.41     12138
+weighted avg       0.67      0.47      0.40     12138
+
+XGBoost: Class Balancing: SMOTE
+XGBoost: Class Balancing: SMOTE - Training
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00      5161
+           1       0.86      0.86      0.86      5175
+           2       0.55      0.35      0.42      5187
+           3       0.63      0.55      0.59      5235
+           4       0.54      0.74      0.63      5266
+           5       0.75      0.84      0.79      5191
+           6       0.86      0.86      0.86      5199
+
+    accuracy                           0.74     36414
+   macro avg       0.74      0.74      0.74     36414
+weighted avg       0.74      0.74      0.74     36414
+
+XGBoost: Class Balancing: SMOTE - Testing
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99      1685
+           1       0.87      0.84      0.86      1742
+           2       0.55      0.35      0.43      1724
+           3       0.64      0.57      0.60      1765
+           4       0.55      0.76      0.64      1724
+           5       0.75      0.84      0.79      1726
+           6       0.87      0.86      0.86      1772
+
+    accuracy                           0.74     12138
+   macro avg       0.74      0.75      0.74     12138
+weighted avg       0.74      0.74      0.74     12138
+
+XGBoost: Class Balancing: SMOTE - Validation
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1824
+           1       0.87      0.84      0.86      1753
+           2       0.57      0.34      0.43      1759
+           3       0.61      0.56      0.58      1670
+           4       0.53      0.75      0.63      1680
+           5       0.76      0.83      0.80      1753
+           6       0.86      0.87      0.86      1699
+
+    accuracy                           0.75     12138
+   macro avg       0.74      0.74      0.74     12138
+weighted avg       0.75      0.75      0.74     12138
+
+Gaussian Naive Bayes: Class Balancing: SMOTE
+Gaussian Naive Bayes: Class Balancing: SMOTE - Training
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      1.00      5161
+           2       0.85      0.36      0.50      5175
+           3       0.32      0.98      0.48      5187
+           4       0.39      0.26      0.31      5235
+           5       1.00      0.00      0.00      5266
+           6       0.78      0.71      0.75      5191
+           7       0.89      0.81      0.85      5199
+
+    accuracy                           0.59     36414
+   macro avg       0.75      0.59      0.56     36414
+weighted avg       0.75      0.59      0.55     36414
+
+Gaussian Naive Bayes: Class Balancing: SMOTE - Testing
+              precision    recall  f1-score   support
+
+           1       0.99      1.00      0.99      1685
+           2       0.85      0.34      0.48      1742
+           3       0.32      0.99      0.48      1724
+           4       0.40      0.26      0.32      1765
+           5       1.00      0.00      0.00      1724
+           6       0.78      0.71      0.74      1726
+           7       0.88      0.82      0.85      1772
+
+    accuracy                           0.59     12138
+   macro avg       0.75      0.59      0.55     12138
+weighted avg       0.75      0.59      0.55     12138
+
+Gaussian Naive Bayes: Class Balancing: SMOTE - Validation
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      1824
+           2       0.82      0.35      0.49      1753
+           3       0.33      0.99      0.49      1759
+           4       0.39      0.28      0.33      1670
+           5       1.00      0.00      0.00      1680
+           6       0.79      0.71      0.75      1753
+           7       0.89      0.82      0.85      1699
+
+    accuracy                           0.60     12138
+   macro avg       0.75      0.59      0.56     12138
+weighted avg       0.75      0.60      0.56     12138

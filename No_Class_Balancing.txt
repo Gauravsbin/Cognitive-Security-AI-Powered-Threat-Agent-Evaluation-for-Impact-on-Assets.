@@ -1,0 +1,413 @@
+Random Forest: No Class Balancing
+Random Forest: No Class Balancing - Training
+              precision    recall  f1-score   support
+
+           1       0.66      0.97      0.79        78
+           2       0.92      0.68      0.78       121
+           3       0.54      0.14      0.22      1095
+           4       0.72      0.68      0.70      2518
+           5       0.74      0.83      0.78      4744
+           6       0.84      0.91      0.87      5168
+           7       0.68      0.61      0.64       543
+
+    accuracy                           0.77     14267
+   macro avg       0.73      0.69      0.68     14267
+weighted avg       0.76      0.77      0.75     14267
+
+Random Forest: No Class Balancing - Testing
+              precision    recall  f1-score   support
+
+           1       0.62      0.95      0.75        21
+           2       0.90      0.76      0.83        34
+           3       0.60      0.15      0.24       380
+           4       0.73      0.67      0.70       809
+           5       0.76      0.87      0.81      1581
+           6       0.84      0.90      0.87      1751
+           7       0.63      0.57      0.59       180
+
+    accuracy                           0.78      4756
+   macro avg       0.72      0.70      0.68      4756
+weighted avg       0.76      0.78      0.76      4756
+
+Random Forest: No Class Balancing - Validation
+              precision    recall  f1-score   support
+
+           1       0.55      0.92      0.69        12
+           2       0.86      0.67      0.75        36
+           3       0.53      0.13      0.21       356
+           4       0.72      0.68      0.70       844
+           5       0.75      0.85      0.80      1597
+           6       0.85      0.90      0.87      1751
+           7       0.65      0.61      0.63       160
+
+    accuracy                           0.78      4756
+   macro avg       0.70      0.68      0.66      4756
+weighted avg       0.76      0.78      0.76      4756
+
+Logistic Regression: No Class Balancing
+Logistic Regression: No Class Balancing - Training
+              precision    recall  f1-score   support
+
+           1       0.67      0.73      0.70        78
+           2       1.00      0.00      0.00       121
+           3       0.00      0.00      0.00      1095
+           4       0.64      0.55      0.59      2518
+           5       0.70      0.70      0.70      4744
+           6       0.75      0.92      0.82      5168
+           7       0.57      0.82      0.67       543
+
+    accuracy                           0.70     14267
+   macro avg       0.62      0.53      0.50     14267
+weighted avg       0.65      0.70      0.66     14267
+
+Logistic Regression: No Class Balancing - Testing
+              precision    recall  f1-score   support
+
+           1       0.64      0.86      0.73        21
+           2       1.00      0.00      0.00        34
+           3       0.00      0.00      0.00       380
+           4       0.61      0.51      0.56       809
+           5       0.70      0.70      0.70      1581
+           6       0.74      0.91      0.82      1751
+           7       0.54      0.82      0.65       180
+
+    accuracy                           0.69      4756
+   macro avg       0.60      0.54      0.49      4756
+weighted avg       0.64      0.69      0.66      4756
+
+Logistic Regression: No Class Balancing - Validation
+              precision    recall  f1-score   support
+
+           1       0.55      0.50      0.52        12
+           2       1.00      0.00      0.00        36
+           3       0.00      0.00      0.00       356
+           4       0.63      0.54      0.58       844
+           5       0.70      0.69      0.70      1597
+           6       0.75      0.92      0.82      1751
+           7       0.55      0.82      0.66       160
+
+    accuracy                           0.70      4756
+   macro avg       0.60      0.50      0.47      4756
+weighted avg       0.65      0.70      0.66      4756
+
+Decision Tree: No Class Balancing
+Decision Tree: No Class Balancing - Training
+              precision    recall  f1-score   support
+
+           1       0.66      0.99      0.79        78
+           2       0.92      0.68      0.78       121
+           3       0.54      0.14      0.22      1095
+           4       0.72      0.68      0.70      2518
+           5       0.74      0.83      0.78      4744
+           6       0.84      0.91      0.87      5168
+           7       0.68      0.61      0.64       543
+
+    accuracy                           0.77     14267
+   macro avg       0.73      0.69      0.68     14267
+weighted avg       0.76      0.77      0.75     14267
+
+Decision Tree: No Class Balancing - Testing
+              precision    recall  f1-score   support
+
+           1       0.62      0.95      0.75        21
+           2       0.89      0.74      0.81        34
+           3       0.60      0.15      0.24       380
+           4       0.73      0.67      0.70       809
+           5       0.76      0.87      0.81      1581
+           6       0.84      0.90      0.87      1751
+           7       0.63      0.57      0.59       180
+
+    accuracy                           0.78      4756
+   macro avg       0.72      0.69      0.68      4756
+weighted avg       0.76      0.78      0.76      4756
+
+Decision Tree: No Class Balancing - Validation
+              precision    recall  f1-score   support
+
+           1       0.57      1.00      0.73        12
+           2       0.86      0.67      0.75        36
+           3       0.53      0.13      0.21       356
+           4       0.72      0.68      0.70       844
+           5       0.75      0.85      0.80      1597
+           6       0.85      0.90      0.87      1751
+           7       0.65      0.61      0.63       160
+
+    accuracy                           0.78      4756
+   macro avg       0.70      0.69      0.67      4756
+weighted avg       0.76      0.78      0.76      4756
+
+Support Vector Machine: No Class Balancing
+Support Vector Machine: No Class Balancing - Training
+              precision    recall  f1-score   support
+
+           1       0.66      0.97      0.79        78
+           2       0.83      0.54      0.65       121
+           3       0.41      0.11      0.17      1095
+           4       0.63      0.73      0.67      2518
+           5       0.80      0.75      0.78      4744
+           6       0.80      0.91      0.85      5168
+           7       0.66      0.61      0.63       543
+
+    accuracy                           0.75     14267
+   macro avg       0.68      0.66      0.65     14267
+weighted avg       0.73      0.75      0.73     14267
+
+Support Vector Machine: No Class Balancing - Testing
+              precision    recall  f1-score   support
+
+           1       0.62      0.95      0.75        21
+           2       0.68      0.56      0.61        34
+           3       0.41      0.11      0.18       380
+           4       0.61      0.71      0.66       809
+           5       0.80      0.77      0.79      1581
+           6       0.81      0.91      0.86      1751
+           7       0.62      0.57      0.60       180
+
+    accuracy                           0.75      4756
+   macro avg       0.65      0.66      0.64      4756
+weighted avg       0.73      0.75      0.73      4756
+
+Support Vector Machine: No Class Balancing - Validation
+              precision    recall  f1-score   support
+
+           1       0.55      0.92      0.69        12
+           2       0.76      0.53      0.62        36
+           3       0.45      0.12      0.19       356
+           4       0.62      0.71      0.67       844
+           5       0.81      0.77      0.79      1597
+           6       0.80      0.91      0.86      1751
+           7       0.65      0.62      0.63       160
+
+    accuracy                           0.76      4756
+   macro avg       0.66      0.65      0.64      4756
+weighted avg       0.74      0.76      0.74      4756
+
+K-Nearest Neighbors: No Class Balancing
+K-Nearest Neighbors: No Class Balancing - Training
+              precision    recall  f1-score   support
+
+           1       0.68      0.58      0.62        78
+           2       0.92      0.64      0.76       121
+           3       0.58      0.08      0.13      1095
+           4       0.77      0.59      0.67      2518
+           5       0.67      0.86      0.76      4744
+           6       0.84      0.87      0.86      5168
+           7       0.57      0.64      0.61       543
+
+    accuracy                           0.75     14267
+   macro avg       0.72      0.61      0.63     14267
+weighted avg       0.74      0.75      0.72     14267
+
+K-Nearest Neighbors: No Class Balancing - Testing
+              precision    recall  f1-score   support
+
+           1       0.75      0.57      0.65        21
+           2       0.88      0.62      0.72        34
+           3       0.56      0.07      0.13       380
+           4       0.75      0.59      0.66       809
+           5       0.68      0.88      0.77      1581
+           6       0.84      0.85      0.85      1751
+           7       0.51      0.65      0.57       180
+
+    accuracy                           0.74      4756
+   macro avg       0.71      0.60      0.62      4756
+weighted avg       0.74      0.74      0.72      4756
+
+K-Nearest Neighbors: No Class Balancing - Validation
+              precision    recall  f1-score   support
+
+           1       0.45      0.42      0.43        12
+           2       0.84      0.58      0.69        36
+           3       0.51      0.06      0.11       356
+           4       0.74      0.57      0.65       844
+           5       0.68      0.87      0.76      1597
+           6       0.85      0.87      0.86      1751
+           7       0.53      0.64      0.58       160
+
+    accuracy                           0.74      4756
+   macro avg       0.66      0.57      0.58      4756
+weighted avg       0.74      0.74      0.72      4756
+
+Gradient Boosting Machines:  No Class Balancing
+Gradient Boosting Machines: No Class Balancing - Training
+              precision    recall  f1-score   support
+
+           1       0.65      1.00      0.79        78
+           2       0.92      0.68      0.78       121
+           3       0.54      0.14      0.22      1095
+           4       0.71      0.68      0.70      2518
+           5       0.74      0.83      0.78      4744
+           6       0.84      0.90      0.87      5168
+           7       0.68      0.61      0.64       543
+
+    accuracy                           0.77     14267
+   macro avg       0.73      0.69      0.68     14267
+weighted avg       0.76      0.77      0.75     14267
+
+Gradient Boosting Machines: No Class Balancing - Testing
+              precision    recall  f1-score   support
+
+           1       0.55      1.00      0.71        21
+           2       0.90      0.76      0.83        34
+           3       0.60      0.15      0.24       380
+           4       0.72      0.67      0.70       809
+           5       0.76      0.87      0.81      1581
+           6       0.84      0.89      0.86      1751
+           7       0.63      0.57      0.59       180
+
+    accuracy                           0.77      4756
+   macro avg       0.71      0.70      0.68      4756
+weighted avg       0.76      0.77      0.76      4756
+
+Gradient Boosting Machines: No Class Balancing - Validation
+              precision    recall  f1-score   support
+
+           1       0.57      1.00      0.73        12
+           2       0.86      0.67      0.75        36
+           3       0.53      0.13      0.21       356
+           4       0.71      0.68      0.69       844
+           5       0.75      0.85      0.80      1597
+           6       0.85      0.90      0.87      1751
+           7       0.65      0.61      0.63       160
+
+    accuracy                           0.77      4756
+   macro avg       0.70      0.69      0.67      4756
+weighted avg       0.76      0.77      0.76      4756
+
+AdaBoost: No Class Balancing
+AdaBoost: No Class Balancing - Training
+              precision    recall  f1-score   support
+
+           1       1.00      0.00      0.00        78
+           2       1.00      0.00      0.00       121
+           3       1.00      0.00      0.00      1095
+           4       0.17      0.33      0.22      2518
+           5       0.34      0.15      0.21      4744
+           6       0.74      0.92      0.82      5168
+           7       0.56      0.82      0.67       543
+
+    accuracy                           0.47     14267
+   macro avg       0.69      0.32      0.27     14267
+weighted avg       0.52      0.47      0.43     14267
+
+AdaBoost: No Class Balancing - Testing
+              precision    recall  f1-score   support
+
+           1       1.00      0.00      0.00        21
+           2       1.00      0.00      0.00        34
+           3       1.00      0.00      0.00       380
+           4       0.17      0.34      0.22       809
+           5       0.35      0.15      0.21      1581
+           6       0.74      0.91      0.82      1751
+           7       0.53      0.83      0.65       180
+
+    accuracy                           0.47      4756
+   macro avg       0.68      0.32      0.27      4756
+weighted avg       0.53      0.47      0.43      4756
+
+AdaBoost: No Class Balancing - Validation
+              precision    recall  f1-score   support
+
+           1       1.00      0.00      0.00        12
+           2       1.00      0.00      0.00        36
+           3       1.00      0.00      0.00       356
+           4       0.17      0.33      0.22       844
+           5       0.36      0.17      0.23      1597
+           6       0.75      0.92      0.83      1751
+           7       0.54      0.82      0.65       160
+
+    accuracy                           0.48      4756
+   macro avg       0.69      0.32      0.28      4756
+weighted avg       0.53      0.48      0.44      4756
+
+XGBoost: No Class Balancing
+XGBoost: No Class Balancing - Training
+              precision    recall  f1-score   support
+
+           0       0.66      0.97      0.79        78
+           1       0.92      0.68      0.78       121
+           2       0.54      0.14      0.22      1095
+           3       0.72      0.68      0.70      2518
+           4       0.74      0.83      0.78      4744
+           5       0.84      0.91      0.87      5168
+           6       0.68      0.61      0.64       543
+
+    accuracy                           0.77     14267
+   macro avg       0.73      0.69      0.68     14267
+weighted avg       0.76      0.77      0.75     14267
+
+XGBoost: No Class Balancing - Testing
+              precision    recall  f1-score   support
+
+           0       0.62      0.95      0.75        21
+           1       0.90      0.76      0.83        34
+           2       0.60      0.15      0.24       380
+           3       0.73      0.67      0.70       809
+           4       0.76      0.87      0.81      1581
+           5       0.84      0.90      0.87      1751
+           6       0.63      0.57      0.59       180
+
+    accuracy                           0.78      4756
+   macro avg       0.72      0.70      0.68      4756
+weighted avg       0.76      0.78      0.76      4756
+
+XGBoost: No Class Balancing - Validation
+              precision    recall  f1-score   support
+
+           0       0.55      0.92      0.69        12
+           1       0.86      0.67      0.75        36
+           2       0.53      0.13      0.21       356
+           3       0.72      0.68      0.70       844
+           4       0.75      0.85      0.80      1597
+           5       0.85      0.90      0.87      1751
+           6       0.65      0.61      0.63       160
+
+    accuracy                           0.78      4756
+   macro avg       0.70      0.68      0.66      4756
+weighted avg       0.76      0.78      0.76      4756
+
+Gaussian Naive Bayes: No Class Balancing
+Gaussian Naive Bayes: No Class Balancing - Training
+              precision    recall  f1-score   support
+
+           1       0.65      1.00      0.79        78
+           2       0.00      0.00      0.00       121
+           3       0.18      0.98      0.30      1095
+           4       0.80      0.21      0.34      2518
+           5       0.03      0.00      0.00      4744
+           6       0.75      0.92      0.82      5168
+           7       0.57      0.82      0.67       543
+
+    accuracy                           0.48     14267
+   macro avg       0.42      0.56      0.42     14267
+weighted avg       0.46      0.48      0.41     14267
+
+Gaussian Naive Bayes: No Class Balancing - Testing
+              precision    recall  f1-score   support
+
+           1       0.55      1.00      0.71        21
+           2       0.00      0.00      0.00        34
+           3       0.18      0.97      0.31       380
+           4       0.80      0.21      0.33       809
+           5       0.10      0.00      0.00      1581
+           6       0.74      0.91      0.82      1751
+           7       0.53      0.82      0.65       180
+
+    accuracy                           0.48      4756
+   macro avg       0.42      0.56      0.40      4756
+weighted avg       0.48      0.48      0.41      4756
+
+Gaussian Naive Bayes: No Class Balancing - Validation
+              precision    recall  f1-score   support
+
+           1       0.57      1.00      0.73        12
+           2       0.00      0.00      0.00        36
+           3       0.17      0.96      0.29       356
+           4       0.79      0.21      0.33       844
+           5       0.00      0.00      0.00      1597
+           6       0.75      0.92      0.82      1751
+           7       0.55      0.82      0.66       160
+
+    accuracy                           0.48      4756
+   macro avg       0.40      0.56      0.40      4756
+weighted avg       0.45      0.48      0.41      4756
